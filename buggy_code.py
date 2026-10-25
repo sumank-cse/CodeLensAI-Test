@@ -20,3 +20,5 @@ def find_user(users, user_id):
         if user["id"] == user_id:
             return user
     return None
+def divide_by_zero_test():
+    return 10 / 0
